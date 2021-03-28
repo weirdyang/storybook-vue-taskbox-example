@@ -15,7 +15,7 @@ export default {
   components: { PureTaskList },
 
   methods: mapActions(['archiveTask', 'pinTask']),
-
+  // https://vuex.vuejs.org/guide/state.html#the-mapstate-helper
   computed: mapState(['tasks']),
 };
 </script>
